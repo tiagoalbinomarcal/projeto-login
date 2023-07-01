@@ -31,7 +31,7 @@ main{
 main > section{
     background-color: white;
     width: 300px;
-    height: 600px;
+    height: 500px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
@@ -61,4 +61,79 @@ div#imagem{
     background: url(../imagens/prediopq.jpg) left bottom;
     width: 300px;
     height: 200px;
+}
+
+#sub[type=submit]{
+    display: block;
+    font-size: 1em;
+    background-color: var(--rosa);
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #b04db0;
+    
+}
+
+#sub:hover{
+    background-color: #b04db0;
+    cursor: pointer;
+}
+
+#esqueci{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    background-color: white;
+    height: 40px;
+    text-decoration: none;
+    color: var(--verde);
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 2px solid var(--verde);
+}
+
+#esqueci:hover{
+    background-color: rgb(180, 180, 180);
+}
+
+div.campo{
+    background-color: #325adb;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+label{
+    display: none;
+}
+
+div.campo i{
+    color: white;
+    font-size: 2em;
+    padding: 3px;
+    padding-top: 5px;
+
+}
+
+div.campo input{
+    background-color:#ffdbff;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    width: calc(100% - 43px);
+
+    transform: translateY(-11px);
+    border: 3px solid #325adb;
+
+}
+
+div.campo input:focus-within{
+    background-color: white;
+}
+
+a > i{
+    transform: translateY(7px);
 }
