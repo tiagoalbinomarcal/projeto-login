@@ -6,8 +6,8 @@
 */
 
 :root{
-    --rosa: #E0698C;
-    --verde: #5FE1B7;
+    --rosa: #e367e3;
+    --verde: #325adb;
 }
 
 *{
@@ -18,7 +18,7 @@
 }
 
 body, html{
-    background-color: var(--rosa);
+    background-color: var(--verde);
     height: 100vh;
     width: 100vw;
 }
@@ -40,6 +40,12 @@ main > section{
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.44);
 
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+}
+
+div#form{
+    padding: 10px;
 }
 
 div#imagem{

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@media screen and (min-width: 600px){
+
+    body{
+        background-image: linear-gradient(to bottom, var(--rosa), var(--verde));
+    }
+
+    #login{
+        width: 80vw;
+
+    }
+
+    section#login > #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background: url(../imagens/predio.jpg) center right;
+        background-size: cover;
+    }
+
+    section#login > #form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to bottom, var(--rosa), var(--verde));
+    }
+
+    #login{
+        width: 900px;
+
+    }
+
+    section#login > #imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background: url(../imagens/predio.jpg) left bottom;
+        background-size: cover;
+    }
+
+    section#login > #form{
+        float: right;
+        width: 50%;
+    }
+}
