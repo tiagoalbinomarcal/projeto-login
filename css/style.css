@@ -100,9 +100,13 @@ div#imagem{
 
 div.campo{
     background-color: #325adb;
-    height: 40px;
+    height: 42px;
     margin: 5px 0px;
     border-radius: 10px;
+}
+
+.texts{
+    transform: translateY(-10px) !important;
 }
 
 label{
